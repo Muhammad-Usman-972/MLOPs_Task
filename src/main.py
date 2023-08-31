@@ -10,7 +10,7 @@ def mul(x,y):
 def div(x,y):
     #"For Divison"
     try:
-        return x/yS
+        return x/y
     except ZeroDivisionError:
         #"Error Check"
         print("Division by zero is not allowed")
