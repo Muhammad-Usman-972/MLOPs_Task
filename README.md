@@ -1,4 +1,6 @@
+[![Python application](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/python-app.yml/badge.svg)](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/python-app.yml)
 # MLOPs_Task
+
 ## For Windows
 ### create a virtual environment
 ```bash
