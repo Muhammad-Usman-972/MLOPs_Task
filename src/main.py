@@ -13,14 +13,14 @@ def div(x,y):
 
 if __name__ == "__main__":
     
-    print("Enter two numbers")
+    print("Enter The two numbers for calculator app: ")
     x = int(input())
     y = int(input())
     print("Enter operation to be performed")
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
     choice = int(input())
     if choice == 1:
         print(add(x,y))
