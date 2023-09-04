@@ -1,32 +1,35 @@
 def add(x,y):
-    #"For addition"
+    #For Addition
     return x+y
 def sub(x,y):
-    #"For subtraction"
+    #For Subtraction
     return x-y
 def mul(x,y):
-    #"For Multiplication"
+    #For Multiplication
     return x*y
 def div(x,y):
-    #"For Divison"
+    #For Division
     try:
         return x/y
     except ZeroDivisionError:
-        #"Error Check"
+        #Division Error Comment
         print("Division by zero is not allowed")
         return None
 
-if __name__ == "_main_":
-    
-    print("Enter two numbers")
-    inp1 = int(input())
-    inp2 = int(input())
+if __name__ == "__main__":
+    #Input Statement comment
+    print("Enter The two numbers for calculator app: ")
+    x = int(input())
+    y = int(input())
+    #Operation Statements 
+
     print("Enter operation to be performed")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
     choice = int(input())
+    #Choice Selection
     if choice == 1:
         print(add(inp1,inp2))
     elif choice == 2:
@@ -36,4 +39,5 @@ if __name__ == "_main_":
     elif choice == 4:
         print(div(inp1,inp2))
     else:
+        #Invalid Choice
         print("Invalid choice")
