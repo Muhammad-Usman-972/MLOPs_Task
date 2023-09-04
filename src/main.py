@@ -12,6 +12,7 @@ def div(x,y):
     try:
         return x/y
     except ZeroDivisionError:
+        #Division Error Comment
         print("Division by zero is not allowed")
         return None
 
@@ -20,7 +21,7 @@ if __name__ == "__main__":
     print("Enter The two numbers for calculator app: ")
     x = int(input())
     y = int(input())
-    #Operation Statements
+    #Operation Statements 
     print("Enter operation to be performed")
     print("1. Add")
     print("2. Subtract")
