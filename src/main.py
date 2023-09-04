@@ -22,21 +22,22 @@ if __name__ == "__main__":
     x = int(input())
     y = int(input())
     #Operation Statements 
+
     print("Enter operation to be performed")
-    print("1. Add")
-    print("2. Subtract")
-    print("3. Multiply")
-    print("4. Divide")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
     choice = int(input())
     #Choice Selection
     if choice == 1:
-        print(add(x,y))
+        print(add(inp1,inp2))
     elif choice == 2:
-        print(sub(x,y))
+        print(sub(inp1,inp2))
     elif choice == 3:
-        print(mul(x,y))
+        print(mul(inp1,inp2))
     elif choice == 4:
-        print(div(x,y))
+        print(div(inp1,inp2))
     else:
         #Invalid Choice
         print("Invalid choice")
