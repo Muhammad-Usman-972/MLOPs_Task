@@ -24,10 +24,10 @@ if __name__ == "__main__":
     #Operation Statements 
 
     print("Enter operation to be performed")
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
+    print("1. +")
+    print("2. -")
+    print("3. *")
+    print("4. /")
     choice = int(input())
     #Choice Selection
     if choice == 1:
