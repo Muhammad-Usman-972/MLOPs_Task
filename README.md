@@ -1,4 +1,5 @@
-[![Python application](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/python-app.yml/badge.svg)](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/main_branch_python-app.yml)
+[![main branch](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/main_branch_python-app.yml/badge.svg)](https://github.com/Muhammad-Usman-972/MLOPs_Task/actions/workflows/main_branch_python-app.yml)
+
 # MLOPs_Task
 
 ## For Windows
