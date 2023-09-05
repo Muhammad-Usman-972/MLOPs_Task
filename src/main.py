@@ -19,8 +19,8 @@ def div(x,y):
 if __name__ == "__main__":
     #Input Statement comment
     print("Enter The two numbers for calculator app: ")
-    x = int(input())
-    y = int(input())
+    inp1 = int(input())
+    inp2 = int(input())
     #Operation Statements 
 
     print("Enter operation to be performed")
